@@ -1,0 +1,151 @@
+    * {
+        box-sizing: border-box;
+        /* font family */
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .relleno-lateral {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    #header {
+        text-align: center;
+        background-image: url('../img/banner-2.jpg');
+        background-size: cover;
+        padding: 30vh 100px;
+        height: 100vh;
+        font-size: 50px;
+    }
+    
+    #header h1 {
+        width: auto;
+        font-size: 70px;
+    }
+    
+    .column1 {
+        width: 50%;
+        float: left;
+    }
+    
+    .column1 h2 {
+        float: left;
+        text-align: center;
+        font-size: 85px;
+    }
+    
+    #section-1 img {
+        background-image: url('../img/section-1.png');
+        float: right;
+        text-align: right;
+    }
+    
+    .column1 h3 {
+        float: left;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .gallery img {
+        width: 100%;
+    }
+    
+    .column2 h2 {
+        float: left;
+        font-size: 100px;
+        width: 100%;
+    }
+    
+    .column3 {
+        width: 25%;
+        float: left;
+    }
+    
+    .gallery2 img {
+        width: 70%;
+    }
+    
+    #section2 {
+        background-color: #24eca4;
+        text-align: center;
+    }
+    
+    .column4 {
+        width: 50%;
+        float: right;
+    }
+    
+    .column4 h2 {
+        float: left;
+        font-size: 85px;
+    }
+    
+    .column4 h3 {
+        float: left;
+        font-size: 60px;
+    }
+    
+    .gallery3 img {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+    
+    .column5 {
+        width: 25%;
+        float: left;
+    }
+    
+    .gallery4 img {
+        width: 100%;
+    }
+    
+    #section5 {
+        background-color: #44a4fc;
+        text-align: center;
+    }
+    
+    .column6 h2 {
+        float: left;
+        font-size: 100px;
+        width: 100%;
+    }
+    
+    .column-2 {
+        background-color: black;
+        color: white;
+        width: 50%;
+        float: left;
+        padding: 40px;
+        height: 20vh;
+    }
+    
+    .column-4 {
+        background-color: black;
+        color: white;
+        width: 25%;
+        float: left;
+        padding: 40px;
+        height: 20vh;
+    }
+    
+    #section7 {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 20vh;
+    }
+    /*  @media screen and (max-width: 700px) {
+            #header h1 {}
+        }
+    } */
